@@ -1,0 +1,4 @@
+kicad_pcb: (placeholder)
+This repository contains the KiCad project files for the STM32 - Dynamixel PCB schematic.
+
+Note: The KiCad PCB file (.kicad_pcb) will be created in a follow-up revision. The current commit contains the schematic source placeholder and supporting documentation in markdown. To convert the provided markdown to a PDF, see README.md instructions.

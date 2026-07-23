@@ -1,0 +1,3 @@
+kicad_sch: STM32-Dynamixel schematic placeholder
+
+This is a placeholder .kicad_sch file. The full, detailed schematic is provided in STM32_Dynamixel_board_schematic.md in this repository. Use KiCad to create or import the schematic based on that document.

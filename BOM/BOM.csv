@@ -1,0 +1,17 @@
+Ref,Description,Example Part,Footprint,Qty,Notes
+U1,Boost IC,TPS61088,VQFN-EP,1,Boost to 11.1V
+L1,Inductor,2.2uH high current,Power,1,Isat >= 8A
+CIN,Input cap,47uF 25V,1210,1,X5R/X7R
+COUT,Output cap,220uF 25V,1812,1,low ESR
+D1,Input Schottky,SS34,DO-214,1,reverse protection
+U2,Buck 3.3V,TPS62840,QFN,1,3.3V for MCU
+U3,MCU,STM32F103C8T6,LQFP48,1,STM32F103
+U4,TX Buffer,74LVC1G125,SOT-23-5,1,OE -> TX_EN
+U5,Level shifter,SN74LVC1T45,SOT-23-5,1,or SN74LVC2T45
+Rpull,Pull-up,4.7k,0603,1,to 5V (optional)
+Rser,Series resistor,100,0603,1,at DATA output
+PTC,PTC fuse,PTC-2A,SMD,1,protect motor rail
+TVS,TVS diode,SMBJ12A,SMB,1,protect motor rail
+J_BAT,Battery connector,JST-2P,ThroughHole,1,
+J_MOTOR1..J_MOTOR12,Motor connectors,3-pin JST-SM,ThroughHole,12,Pin1=V_MOTOR,Pin2=GND,Pin3=DATA
+J_SWD,SWD header,2x5 2.54mm,ThroughHole,1,
