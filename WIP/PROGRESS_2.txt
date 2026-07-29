@@ -1,0 +1,7 @@
+Progress log: started detailed schematic drawing with SMD buck (confirmed)
+
+- SMD buck selected (TPS563201 or equivalent)
+- V5 will be present and connected to R_PULL and SN74LVC1T45 VCCB
+- BOM will not contain MPN entries by default
+
+Next update: placement and footprint mapping complete (expected within 24 hours)
