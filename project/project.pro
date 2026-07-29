@@ -1,6 +1,5 @@
-[General]
-version=20211014
-editor=eeschema
+WIP: KiCad project metadata
 
-[board]
-filename=../pcb/stm32_dynamixel.kicad_pcb
+Project: stm32_dynamixel
+KiCad version: 6
+Status: in progress
